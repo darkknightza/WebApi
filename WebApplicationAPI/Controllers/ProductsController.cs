@@ -83,19 +83,23 @@ namespace WebApplicationAPI.Controllers
 
         // POST: api/Products
         [HttpPost]
-        public IActionResult PostProduct(int min,int max)
+        public IActionResult PostProduct([FromBody] ProductMinMax productminmax)
         {
-            if (min == 0 && max ==  0)
+            
+            if (productminmax.Min == 0 && productminmax.Max ==  0)
             {
                 return BadRequest();
-            }
-
-            var result = _context.Product.Where(s => s.UnitPrice>=min && s.UnitPrice<=max);
-            if (result == null)
+            }else if (productminmax.Min != 0 && productminmax.Max == 0)
             {
-                return NotFound();
+                 var result1 = _context.Product.Where(s => s.UnitPrice >= productminmax.Min);
+                return Ok(result1);
+            }else if (productminmax.Min == 0 && productminmax.Max != 0)
+            {
+                var result2 = _context.Product.Where(s => s.UnitPrice <= productminmax.Max);
+                return Ok(result2);
             }
 
+            var result = _context.Product.Where(s => s.UnitPrice >= productminmax.Min && s.UnitPrice <= productminmax.Max);
             return Ok(result);
         }
 

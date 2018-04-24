@@ -9,3 +9,14 @@ C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netco
 C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.dll
 C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.pdb
 C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.csprojResolveAssemblyReference.cache
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.deps.json
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.runtimeconfig.json
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.runtimeconfig.dev.json
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.dll
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.pdb
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.csprojResolveAssemblyReference.cache
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.csproj.CoreCompileInputs.cache
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.AssemblyInfoInputs.cache
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.AssemblyInfo.cs
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.dll
+D:\MyCos\Lab\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.pdb
