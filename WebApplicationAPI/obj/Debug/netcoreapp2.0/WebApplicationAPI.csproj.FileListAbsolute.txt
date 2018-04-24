@@ -1,0 +1,11 @@
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.deps.json
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.runtimeconfig.json
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.runtimeconfig.dev.json
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.dll
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\bin\Debug\netcoreapp2.0\WebApplicationAPI.pdb
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.csproj.CoreCompileInputs.cache
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.AssemblyInfoInputs.cache
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.AssemblyInfo.cs
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.dll
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.pdb
+C:\Users\Knight\source\repos\WebApplicationAPI\WebApplicationAPI\obj\Debug\netcoreapp2.0\WebApplicationAPI.csprojResolveAssemblyReference.cache
