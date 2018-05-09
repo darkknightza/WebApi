@@ -15,7 +15,7 @@ namespace WebApplicationAPI.Models
         public decimal? UnitPrice { get; set; }
         public string Package { get; set; }
         public bool IsDiscontinued { get; set; }
+
         public ICollection<OrderItem> OrderItem { get; set; }
-        
     }
 }

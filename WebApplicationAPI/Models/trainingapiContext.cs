@@ -7,6 +7,7 @@ namespace WebApplicationAPI.Models
     public partial class trainingapiContext : DbContext
     {
         public virtual DbSet<Customer> Customer { get; set; }
+        public virtual DbSet<Hero> Hero { get; set; }
         public virtual DbSet<Order> Order { get; set; }
         public virtual DbSet<OrderItem> OrderItem { get; set; }
         public virtual DbSet<Product> Product { get; set; }
@@ -36,6 +37,16 @@ namespace WebApplicationAPI.Models
                     .HasMaxLength(40);
 
                 entity.Property(e => e.Phone).HasMaxLength(20);
+            });
+
+            modelBuilder.Entity<Hero>(entity =>
+            {
+                entity.Property(e => e.Id).HasColumnName("id");
+
+                entity.Property(e => e.Name)
+                    .IsRequired()
+                    .HasColumnName("name")
+                    .HasColumnType("nchar(10)");
             });
 
             modelBuilder.Entity<Order>(entity =>

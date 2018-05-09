@@ -26,6 +26,11 @@ namespace WebApplicationAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowSpecificOrigin",
+                    builder => builder.WithOrigins("*"));
+            });
 
             //var connection = @"Server=(local)\user=knight;password=1234;Database=trainingapi;Trusted_Connection=True;ConnectRetryCount=0";
             var connection = Configuration.GetConnectionString("ConnectionString");
@@ -39,6 +44,8 @@ namespace WebApplicationAPI
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors(builder =>
+            builder.WithOrigins("*").AllowAnyHeader());
 
             app.UseMvc();
         }
